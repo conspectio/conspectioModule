@@ -1,0 +1,2 @@
+# conspectioModule
+npm module conspectio
