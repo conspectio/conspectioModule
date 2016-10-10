@@ -1,0 +1,25 @@
+{
+  "name": "conspectio",
+  "version": "1.0.0",
+  "description": "Beta many to many peer connection library",
+  "main": "conspectioServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/conspectio/conspectioLib"
+  },
+  "keywords": [
+    "broadcast",
+    "p2p",
+    "peerconnection",
+    "websocket",
+    "webrtc"
+  ],
+  "author": "Diana Cheung, Simon Situ, & Dana Tran",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^1.5.0"
+  }
+}
