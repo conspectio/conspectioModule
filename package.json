@@ -1,14 +1,14 @@
 {
   "name": "conspectio",
   "version": "1.0.0",
-  "description": "Beta many to many peer connection library",
-  "main": "conspectioServer.js",
+  "description": "Conspectio is a library that provides the ability to display multiple one-to-many live stream broadcasts all in one view. Conspectio is built with WebRTC and Socket.io.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/conspectio/conspectioLib"
+    "url": "github.com/conspectio/conspectioModule"
   },
   "keywords": [
     "broadcast",
@@ -17,9 +17,21 @@
     "websocket",
     "webrtc"
   ],
-  "author": "Diana Cheung, Simon Situ, & Dana Tran",
+  "author": "Diana Cheung, Simon Situ, & Dana Tran, <conpsectio.js@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7",
     "socket.io": "^1.5.0"
+  },
+    "devDependencies": {
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-es2015": "6.16.0",
+    "jquery": "3.1.1",
+    "nodemon": "1.11.0",
+    "socket.io-client": "1.5.0",
+    "webpack": "1.13.2",
+    "webrtc-adapter": "2.0.4"
   }
 }
